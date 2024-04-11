@@ -53,7 +53,6 @@ public class ShopRepositoryTest {
         Assertions.assertThrows(NotFoundException.class,
                 () -> repository.remove(123123)
         );
-
-
+        
     }
 }
